@@ -14,7 +14,7 @@ function setup() {
 function draw() {
   background("black");  
   drawSprites();
-  translate(200,200);
+  translate(width/2,height/2);
   rotate(-90);
 
   hr=hour();
