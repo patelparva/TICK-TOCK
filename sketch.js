@@ -23,7 +23,7 @@ function draw() {
   
   scAngle=map(sc,0,60,0,360);
   mnAngle=map(mn,0,60,0,360);
-  hrAngle=map(hr,12,0,12,360);
+  hrAngle=map(hr,0,12,0,360);
 
   push();
   rotate(scAngle);
@@ -36,14 +36,14 @@ function draw() {
   rotate(mnAngle);
   stroke(0,255,0);
   strokeWeight(7);
-  line(0,0,100,0);
+  line(0,0,80,0);
   pop();
   
   push();
   rotate(hrAngle);
   stroke(0,0,255);
   strokeWeight(7);
-  line(0,0,100,0);
+  line(0,0,60,0);
   pop();
 
   strokeWeight(7);
